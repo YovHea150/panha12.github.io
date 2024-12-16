@@ -1,0 +1,398 @@
+body {
+  margin: 0;
+  font-family: "Siemreap", cursive;
+}
+
+div {
+  box-sizing: border-box;
+  overflow: hidden;
+}
+h1,
+h2,
+h3,
+p,
+ul,
+i,
+a {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+}
+.header {
+  width: 100%;
+  text-align: center;
+  background-color: black;
+}
+.header .box-header {
+  width: 80%;
+  display: inline-block;
+}
+.logo-new img {
+  float: left;
+  height: 120px;
+}
+.ads-iphone img {
+  float: right;
+  height: 120px;
+}
+.menu {
+  width: 100%;
+  float: left;
+  background-color: red;
+}
+.box-menu {
+  width: 80%;
+  height: 60px;
+  margin: auto;
+  text-align: center;
+}
+.box-menu ul li {
+  display: inline-block;
+  margin: 0 50px;
+  transition: 0.3s;
+}
+.box-menu ul li a {
+  padding: 20px 30px;
+  float: left;
+  font-family: "Bayon", sans-serif;
+  font-weight: 400;
+  text-decoration: none;
+  color: aliceblue;
+  line-height: 100%;
+  font-size: 20px;
+}
+
+.box-menu ul li:hover {
+  background-color: rgb(0, 64, 129);
+}
+
+.container {
+  width: 1500px;
+  margin: auto;
+}
+
+.container .main-content {
+  width: 100%;
+  height: 550px;
+  float: left;
+  padding: 15px 0px 10px 0px;
+}
+
+.container .main-content .box-small {
+  width: 22.25%;
+  height: 100%;
+  float: left;
+  margin-right: 0.5%;
+  border-radius: 15px;
+}
+
+.container .main-content .box-small:nth-child(3) {
+  margin: 0;
+  float: right;
+}
+
+.container .main-content .box-small .box-small-topic-ads,
+.container .main-content .box-small .box-small-topic {
+  width: 100%;
+  height: 32.66%;
+  float: left;
+  border-radius: 15px;
+  margin-bottom: 2%;
+  background-image: linear-gradient(
+    to bottom right,
+    rgba(83, 57, 53, 0.178),
+    rgba(51, 33, 30, 0.247)
+  );
+}
+
+.container .main-content .box-small .box-small-topic {
+  padding: 10px;
+}
+
+.container .main-content .box-small .box-small-topic .text {
+  position: relative;
+  width: 63%;
+  height: 80%;
+  float: left;
+}
+
+.menu-new {
+  width: 100%;
+  float: left;
+  border-radius: 0px 0px 0px 25px;
+  border-bottom: 4px solid rgb(255, 1, 60);
+}
+
+.menu-new h1 {
+  padding: 5px 30px 5px 30px;
+  float: left;
+  border-radius: 0px 25px 0px 0px;
+  color: aliceblue;
+  font-family: "Bayon", sans-serif;
+  background-color: rgb(255, 1, 60);
+}
+
+.like {
+  width: 100%;
+  height: 20%;
+  float: left;
+  overflow: hidden;
+}
+
+.like i {
+  padding: 0 5px;
+}
+
+.container .main-content .box-small .box-small-topic .text h1 {
+  color: rgb(12, 12, 177);
+  font-size: 1.1rem;
+}
+
+.container .main-content .box-small .box-small-topic .text h1:hover {
+  color: rgb(213, 24, 10);
+}
+
+.container .main-content .box-small .box-small-topic .img {
+  width: 35%;
+  height: 65%;
+  float: right;
+  border-radius: 5px;
+}
+
+.container .main-content .box-small .box-small-topic .ads {
+  width: 100%;
+  height: 100%;
+}
+
+.bg-img {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.container .main-content .box-big {
+  width: 54.5%;
+  height: 100%;
+  float: left;
+  position: relative;
+  margin-right: 0.5%;
+  border-radius: 15px;
+  background-color: rgb(71, 16, 122);
+}
+
+.color-hover {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  transition: 0.3s;
+}
+
+.color-style {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  bottom: 0;
+  background-image: linear-gradient(
+    rgba(0, 30, 255, 0),
+    rgba(11, 21, 79, 0.192),
+    rgb(2, 8, 58)
+  );
+}
+
+.title {
+  width: 100%;
+  height: 35%;
+  position: absolute;
+  bottom: 10%;
+}
+
+.title h1 {
+  color: aliceblue;
+  font-family: "Siemreap", cursive;
+  font-size: 1.5rem;
+  padding: 0 5%;
+}
+
+.title p {
+  padding: 0 5%;
+  color: aliceblue;
+}
+
+.box-big:hover .color-hover {
+  background-color: rgba(16, 16, 60, 0.316);
+}
+
+.container .topic-content {
+  width: 64%;
+  float: left;
+}
+
+.box-topic {
+  width: 100%;
+  height: 320px;
+  margin-bottom: 10px;
+  border-bottom: 2px solid;
+  float: left;
+}
+
+.box-topic .box-img {
+  width: 35%;
+  height: 100%;
+  float: left;
+  padding-bottom: 10px;
+}
+
+.box-topic .box-img .img {
+  width: 100%;
+  height: 60%;
+  float: left;
+  border-radius: 15px;
+}
+
+.box-topic .box-img .txt {
+  width: 100%;
+  height: 40%;
+  padding-right: 5%;
+}
+
+.box-img .txt h1 {
+  font-size: 0.8rem;
+  padding: 5px;
+  padding-left: 0;
+  color: rgb(11, 11, 185);
+}
+
+.box-img .txt h2 {
+  font-size: 1.1rem;
+  color: rgb(9, 9, 143);
+}
+
+.box-topic .box-text {
+  width: 65%;
+  height: 85%;
+  padding: 15px;
+}
+
+.box-topic .like {
+  width: 100px;
+  height: 15%;
+  float: right;
+}
+
+.box-topic .box-text h1 {
+  font-size: 1.5rem;
+  padding-bottom: 15px;
+  float: left;
+  color: rgb(9, 9, 143);
+}
+
+.box-topic .box-text h3 {
+  color: rgb(11, 11, 185);
+}
+
+.box-img .txt h2:hover,
+.box-text h1:hover,
+.box-text h3:hover {
+  color: rgb(219, 19, 19);
+}
+
+.box-ads {
+  width: 35%;
+  float: right;
+}
+
+.box-ads .ads {
+  width: 100%;
+  float: left;
+}
+
+.box-ads .ads img {
+  border-radius: 15px;
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+.box-ads .topic {
+  width: 100%;
+  float: left;
+}
+
+.box-ads .topic .tit {
+  width: 100%;
+  float: left;
+}
+
+.box-ads .topic h1 {
+  padding-left: 10px;
+  font-size: 1.4rem;
+  float: left;
+  border-bottom: 2px solid red;
+  color: rgb(12, 12, 146);
+}
+
+.box-ads .topic .top {
+  width: 100%;
+  height: 100px;
+  float: left;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.box-ads .topic .top .pic {
+  width: 20%;
+  height: 100%;
+  float: left;
+}
+
+.box-ads .topic .top .txt {
+  width: 80%;
+  height: 100%;
+  padding-left: 10px;
+}
+
+.top .txt h2 {
+  font-size: 1rem;
+}
+
+.top .txt h2:hover {
+  color: rgb(213, 24, 10);
+}
+
+.box-pic {
+  width: 100%;
+  float: left;
+}
+
+.box-pic .box-title {
+  margin-top: 10px;
+  width: 100%;
+  border-bottom: 2px solid rgb(17, 48, 104);
+}
+
+.box-pic .box-title h1 {
+  font-size: 1.8rem;
+  color: rgb(18, 18, 181);
+}
+
+.box-pic .box-img {
+  width: 100%;
+}
+.box-pic .box-img p {
+  margin: 10px 0;
+}
+
+.footer {
+  width: 100%;
+  height: 200px;
+  float: left;
+  background-color: rgb(30, 29, 29);
+}
+
+.footer h1 {
+  color: aliceblue;
+  text-align: center;
+  line-height: 200px;
+}
